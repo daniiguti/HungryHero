@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.CestaFragment"
+    >
+
+    <TextView
+        android:id="@+id/textViewInfo"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:text="Seleccione los pedidos que desea visualizar"
+        android:textColor="?attr/colorOnSecondary"
+        android:layout_gravity="center|center"
+        android:layout_marginBottom="220dp"
+        />
+
+
+    <Button
+        android:id="@+id/btPedidosEnEspera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PEDIDOS EN ESPERA"
+        android:layout_gravity="center|center"
+        android:layout_marginBottom="80dp"
+        />
+    <TextView
+        android:id="@+id/textViewInfoEspera"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:text="(Pedidos que se están haciendo)"
+        android:textColor="?attr/colorOnSecondary"
+        android:layout_gravity="center|center"
+        android:layout_marginBottom="40dp"
+        />
+
+    <Button
+        android:id="@+id/btPedidosRecoger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PEDIDOS PARA RECOGER"
+        android:layout_gravity="center|center"
+        android:layout_marginBottom="-100dp"
+        />
+    <TextView
+        android:id="@+id/textViewInfoRecoger"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:text="(Pedidos que están esperando a ser recogidos)"
+        android:textColor="?attr/colorOnSecondary"
+        android:layout_gravity="center|center"
+        android:layout_marginBottom="-150dp"
+        />
+
+</FrameLayout>
